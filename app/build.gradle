@@ -1,10 +1,11 @@
-apply plugin: 'com.android.application'
+// Copyright (c) 2016 Magicleap. All right reserved.
+
+apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 24
     buildToolsVersion "24.0.2"
     defaultConfig {
-        applicationId "com.uvdev.logging"
         minSdkVersion 9
         targetSdkVersion 24
         versionCode 1
